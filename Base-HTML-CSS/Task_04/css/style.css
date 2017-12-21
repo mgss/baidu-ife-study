@@ -1,0 +1,26 @@
+.middle {
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #CCCCCC;
+    margin: -100px 0 0 -200px;
+}
+.middle .circle{
+    width: 100px;
+    height: 100px;
+    background-color: #FFCC00;
+    border-radius: 100%;
+}
+.middle .c1{
+    position: absolute;
+    left: -50px;
+    top: -50px;
+}
+.middle .c2{
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+}
