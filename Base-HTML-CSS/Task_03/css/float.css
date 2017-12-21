@@ -1,0 +1,73 @@
+/* 样式重置 & 公共样式 */
+ul{list-style: none;padding: 0;margin: 0;}
+
+.clearfix:before, .container:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+.left-bar,
+.right-bar,
+.container{
+    border: 1px solid #999;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+
+/* 容器 */
+.container{
+    padding: 20px;
+    display: hidden;
+    background-color: #eee;
+}
+
+/* 头像 */
+.avatar{
+    /* display:table; */
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    text-align: center;
+    background-color: #DFDFDF;
+}
+.avatar span{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 44px;
+    margin-top: -22px;
+}
+
+/* 左边栏 */
+.container .left-bar{
+    float: left;
+    width: 200px;
+}
+.container .left-bar .avatar{
+    float: left;
+}
+.container .left-bar .title{
+    float: left;
+    width: 80ox;
+    height: 80px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* 中间实体 */
+.container .center{
+    padding: 0px 120px 0 200px;
+}
+.container .center .content{
+    padding: 20px;
+    border: 1px solid #999;
+    background-color: #fff;
+    margin: 0 20px;
+}
+
+/* 右边栏 */
+.container .right-bar{
+    float: right;
+    width: 120px;
+}
