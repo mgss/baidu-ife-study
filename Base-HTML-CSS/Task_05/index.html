@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task_2 零基础HTML及CSS编码（一）</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- 头部开始 -->
+    <header class="home-header">
+        <nav class="container">
+            <!-- Logo or Title -->
+            <h1 class="logo"><a href="#" title="网站一级标题">网站一级标题</a> </h1>
+            <!-- 导航菜单 -->
+            <ul class="menu">
+                <li><a href="#">导航链接1</a></li>
+                <li><a href="#">导航链接2</a></li>
+                <li><a href="#">导航链接3</a></li>
+                <li><a href="#">导航链接4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 头部结束 -->
+
+    <!-- 主体部分开始 -->
+    <main class="container">
+        <!-- 边栏开始 -->
+        <aside class="home-sidebar">
+            <h3 class="title">这里以后是一个侧边栏，这是侧栏的标题</h3>
+            <div class="form">
+                <form action="#" method="get">
+                    <p>
+                        <label>请输入邮箱地址：</label>
+                        <input type="text" placeholder="这是一个文本输入框">
+                    </p>
+                    <div class="info">邮箱地址请按格式输入</div>
+                    <p>
+                        <label>请输入密码：</label>
+                        <input type="password" placeholder="这是一个文本输入框">
+                    </p>
+                    <p>
+                        <label>请重复输入密码：</label>
+                        <input type="password" placeholder="这是一个文本输入框">
+                    </p>
+                    <div class="info">密码请为6-16位英文字母数字</div>
+                    <p>
+                        <label>性别：</label>
+                        <input type="radio" value="男" checked="checked" name="sex"> 男
+                        <input type="radio" value="女" name="sex"> 女
+                    </p>
+                    <p>
+                        <label>城市：</label>
+                        <select name="city" id="">
+                            <option value="北京">北京</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>爱好：</label>
+                        <input type="checkbox" value="运动" name="hobby"> 运动
+                        <input type="checkbox" value="运动" name="hobby"> 艺术
+                        <input type="checkbox" value="运动" name="hobby"> 科学
+                    </p>
+                    <p>
+                        <label for="desc">个人简介：</label>
+                        <textarea name="desc" id="desc" placeholder="这是一个多行输入框，请输入您的个人描述"></textarea>
+                    </p>
+                    <p>
+                        <button type="submit" name="" id="" disabled>确认提交</button>
+                    </p>
+                </form>
+            </div>
+        </aside>
+        <!-- 边栏结束 -->
+        <!-- 左边部分开始 -->
+        <section class="home-left">
+            <!-- 文章1开始 -->
+            <section class="home-article">
+                <h3 class="title">文章一级标题</h3>
+                <h3 class="subtitle">文章二级标题</h3>
+                <div class="info">
+                    <span>文章作者</span> | <time>2017-12-20 18:43:43</tim>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vitae nostrum voluptates facere iure non, dolorem cumque quis, veniam quibusdam sit sapiente! Sequi, omnis dolore quibusdam totam illum laboriosam tenetur!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, fugiat inventore iste labore ducimus accusantium molestiae eos nihil. Incidunt, ipsum voluptatem provident debitis iusto maiores quidem fugit blanditiis ea ipsam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias odio <a href="http://ife.baidu.com/ ">这里有个链接链接到http://ife.baidu.com/</a> nemo eum, obcaecati tempore unde voluptatem esse eveniet eligendi nisi et vel, adipisci quas iste officiis, exercitationem explicabo fuga soluta!</p>
+                    <img src="./img/1.jpg" alt="文章配图" title="文章配图">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam pariatur quam, repellat quod odio neque iste tenetur soluta ea at asperiores nesciunt, fuga assumenda deserunt aliquam inventore fugiat unde. Quidem!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ad porro distinctio veritatis <a href="http://ife.baidu.com/" target="_blank">这里有个链接点击后打开新窗口链接到http://ife.baidu.com/</a> totam sequi, vel odio enim aperiam quo dolorum dolor deserunt similique hic est ipsam corporis temporibus ratione!</p>
+                </div>
+            </section> 
+            <!-- 文章1结束 -->
+        
+            <!-- 文章2开始 -->
+            <section class="home-article">
+                <h3 class="title">文章一级标题</h3>
+                <h3 class="subtitle">文章二级标题</h3>
+                <div class="info">
+                    <span>文章作者</span> | <time>文章发布时间</tim>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vitae nostrum voluptates facere iure non, dolorem cumque quis, veniam quibusdam sit sapiente! Sequi, omnis dolore quibusdam totam illum laboriosam tenetur!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, fugiat inventore iste labore ducimus accusantium molestiae eos nihil. Incidunt, ipsum voluptatem provident debitis iusto maiores quidem fugit blanditiis ea ipsam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias odio <a href="http://ife.baidu.com/ ">这里有个链接链接到http://ife.baidu.com/</a> nemo eum, obcaecati tempore unde voluptatem esse eveniet eligendi nisi et vel, adipisci quas iste officiis, exercitationem explicabo fuga soluta!</p>
+                    <img src="./img/1.jpg" alt="文章配图" title="文章配图">
+                    <ul>
+                        <li>项目列表1</li>
+                        <li>项目列表2</li>
+                        <li>项目列表3</li>
+                    </ul>
+                </div>
+            </section> 
+            <!-- 文章2结束 -->
+        
+            <!-- 图片集开始 -->
+            <section class="home-images">
+                <h3 class="title">图片墙</h3>
+                <ul class="gallery">
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/1.jpg" alt="">
+                    </li>
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/1.jpg" alt="">
+                    </li>
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/1.jpg" alt="">
+                    </li>
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/1.jpg" alt="">
+                    </li>
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/1.jpg" alt="">
+                    </li>
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/1.jpg" alt="">
+                    </li>
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/1.jpg" alt="">
+                    </li>
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/1.jpg" alt="">
+                    </li>
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/1.jpg" alt="">
+                    </li>
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/1.jpg" alt="">
+                    </li>
+                </ul>
+            </section> 
+            <!-- 图片集结束 -->
+        
+            <!-- 文章3开始 -->
+            <section class="home-article">
+                <h3 class="title">文章一级标题</h3>
+                <h3 class="subtitle">文章二级标题</h3>
+                <div class="info">
+                    <span>文章作者</span>  | <time>文章发布时间</tim>
+                </div>
+                <div class="content">
+                    <ol>
+                        <li>排名1</li>
+                        <li>排名2</li>
+                        <li>排名3</li>
+                    </ol>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa dolorum expedita quod harum totam animi quia saepe iusto ipsum aut aspernatur officia voluptatibus eius reiciendis ex molestiae tenetur, non praesentium!</p>
+                    <table>
+                        <thead>
+                            <td>表头</td>
+                            <td>表头</td>
+                            <td>表头</td>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>表内单元格</td>
+                                <td>表内单元格</td>
+                                <td>操作</td>
+                            </tr>
+                            <tr>
+                                <td>表内单元格</td>
+                                <td>表内单元格</td>
+                                <td>操作</td>
+                            </tr>
+                            <tr>
+                                <td>表内单元格</td>
+                                <td>表内单元格</td>
+                                <td>操作</td>
+                            </tr>
+                            <tr>
+                                <td>表内单元格</td>
+                                <td>表内单元格</td>
+                                <td>操作</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <td>总计</td>
+                            <td colspan="2">1000</td>
+                        </tfoot>
+                    </table>
+                </div>
+            </section> 
+            <!-- 文章3结束 -->
+        </section>    
+        <!-- 左边部分结束 -->
+
+    </main>
+    <!-- 主体部分结束 -->
+
+    <!-- 尾部开始 -->
+    <footer class="home-footer clearfix">
+        <div class="container">
+            <p class="copy">版权所有 @ 木艮</p>
+        </div>
+    </footer>
+    <!-- 尾部结束 -->
+</body>
+</html>
